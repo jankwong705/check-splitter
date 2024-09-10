@@ -1,16 +1,11 @@
-import requests
-import json
+# Use a pipeline as a high-level helper
+from transformers import pipeline
 
-def receipt_scan(imageFile):
-    receiptOcrEndpoint = 'https://ocr.asprise.com/api/v1/receipt' # Receipt OCR API endpoint
-    r = requests.post(receiptOcrEndpoint, data = { \
-    'api_key': 'TEST',        # Use 'TEST' for testing purpose \
-    'recognizer': 'auto',       # can be 'US', 'CA', 'JP', 'SG' or 'auto' \
-    'ref_no': 'ocr_python_123', # optional caller provided ref code \
-    }, \
-    files = {"file": open(imageFile, "rb")})
+pipe = pipeline("image-to-text", model="selvakumarcts/sk_invoice_receipts")
 
-    return r.text # result in JSON
+# Load model directly
+from transformers import AutoTokenizer, AutoModel
 
-data = json.loads(receipt_scan('test.jpeg'))
-print(data)
+tokenizer = AutoTokenizer.from_pretrained("selvakumarcts/sk_invoice_receipts")
+model = AutoModel.from_pretrained("selvakumarcts/sk_invoice_receipts")
+
