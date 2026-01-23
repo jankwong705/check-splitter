@@ -1,0 +1,265 @@
+{
+  "bill_name": null,
+  "members": [
+    "Andrew",
+    "Megan",
+    "James"
+  ],
+  "payer_paid_everything": true,
+  "payer": "Andrew",
+  "tax": 0.0,
+  "tip": 0.0,
+  "fees": 0.0,
+  "extras_split_mode": "equal",
+  "receipt_total": 156.96,
+  "items": [
+    {
+      "item_name": "Milk",
+      "item_price": 6.89,
+      "payer": "Andrew",
+      "owed_by": [
+        "Andrew",
+        "Megan",
+        "James"
+      ],
+      "quantity": 1,
+      "item_id": null,
+      "weights": {
+        "Andrew": 1.0,
+        "Megan": 1.0,
+        "James": 1.0
+      },
+      "use_weighted_split": false
+    },
+    {
+      "item_name": "Rice",
+      "item_price": 26.99,
+      "payer": "Andrew",
+      "owed_by": [
+        "Andrew",
+        "Megan",
+        "James"
+      ],
+      "quantity": 1,
+      "item_id": null,
+      "weights": {
+        "Andrew": 1.0,
+        "Megan": 1.0,
+        "James": 1.0
+      },
+      "use_weighted_split": false
+    },
+    {
+      "item_name": "Chicken Thighs",
+      "item_price": 19.3,
+      "payer": "Andrew",
+      "owed_by": [
+        "Andrew",
+        "Megan",
+        "James"
+      ],
+      "quantity": 1,
+      "item_id": null,
+      "weights": {
+        "Andrew": 4.0,
+        "Megan": 3.0,
+        "James": 4.0
+      },
+      "use_weighted_split": true
+    },
+    {
+      "item_name": "Eggs",
+      "item_price": 13.98,
+      "payer": "Andrew",
+      "owed_by": [
+        "Andrew",
+        "Megan",
+        "James"
+      ],
+      "quantity": 2,
+      "item_id": null,
+      "weights": {
+        "Andrew": 1.0,
+        "Megan": 1.0,
+        "James": 1.0
+      },
+      "use_weighted_split": false
+    },
+    {
+      "item_name": "Garlic",
+      "item_price": 8.99,
+      "payer": "Andrew",
+      "owed_by": [
+        "Andrew",
+        "Megan",
+        "James"
+      ],
+      "quantity": 1,
+      "item_id": null,
+      "weights": {
+        "Andrew": 1.0,
+        "Megan": 1.0,
+        "James": 1.0
+      },
+      "use_weighted_split": false
+    },
+    {
+      "item_name": "Blueberries",
+      "item_price": 4.79,
+      "payer": "Andrew",
+      "owed_by": [
+        "Andrew",
+        "Megan",
+        "James"
+      ],
+      "quantity": 1,
+      "item_id": null,
+      "weights": {
+        "Andrew": 1.0,
+        "Megan": 1.0,
+        "James": 1.0
+      },
+      "use_weighted_split": false
+    },
+    {
+      "item_name": "Chcolate Wafers",
+      "item_price": 12.49,
+      "payer": "Andrew",
+      "owed_by": [
+        "Andrew",
+        "Megan",
+        "James"
+      ],
+      "quantity": 1,
+      "item_id": null,
+      "weights": {
+        "Andrew": 1.0,
+        "Megan": 1.0,
+        "James": 1.0
+      },
+      "use_weighted_split": false
+    },
+    {
+      "item_name": "Avacado",
+      "item_price": 3.99,
+      "payer": "Andrew",
+      "owed_by": [
+        "Andrew",
+        "Megan",
+        "James"
+      ],
+      "quantity": 1,
+      "item_id": null,
+      "weights": {
+        "Andrew": 1.0,
+        "Megan": 1.0,
+        "James": 1.0
+      },
+      "use_weighted_split": false
+    },
+    {
+      "item_name": "Almond Butter",
+      "item_price": 9.99,
+      "payer": "Andrew",
+      "owed_by": [
+        "Andrew",
+        "Megan"
+      ],
+      "quantity": 1,
+      "item_id": null,
+      "weights": {
+        "Andrew": 1.0,
+        "Megan": 1.0
+      },
+      "use_weighted_split": false
+    },
+    {
+      "item_name": "Broccoli",
+      "item_price": 5.69,
+      "payer": "Andrew",
+      "owed_by": [
+        "Andrew",
+        "Megan"
+      ],
+      "quantity": 1,
+      "item_id": null,
+      "weights": {
+        "Andrew": 1.0,
+        "Megan": 1.0
+      },
+      "use_weighted_split": false
+    },
+    {
+      "item_name": "Spring Mix",
+      "item_price": 3.89,
+      "payer": "Andrew",
+      "owed_by": [
+        "Andrew",
+        "Megan",
+        "James"
+      ],
+      "quantity": 1,
+      "item_id": null,
+      "weights": {
+        "Andrew": 1.0,
+        "Megan": 1.0,
+        "James": 1.0
+      },
+      "use_weighted_split": false
+    },
+    {
+      "item_name": "Beef",
+      "item_price": 24.69,
+      "payer": "Andrew",
+      "owed_by": [
+        "Andrew",
+        "Megan",
+        "James"
+      ],
+      "quantity": 1,
+      "item_id": null,
+      "weights": {
+        "Andrew": 3.0,
+        "Megan": 1.0,
+        "James": 3.0
+      },
+      "use_weighted_split": true
+    },
+    {
+      "item_name": "Butter",
+      "item_price": 8.79,
+      "payer": "Andrew",
+      "owed_by": [
+        "Andrew",
+        "Megan",
+        "James"
+      ],
+      "quantity": 1,
+      "item_id": null,
+      "weights": {
+        "Andrew": 1.0,
+        "Megan": 1.0,
+        "James": 1.0
+      },
+      "use_weighted_split": false
+    },
+    {
+      "item_name": "Bread",
+      "item_price": 6.49,
+      "payer": "Andrew",
+      "owed_by": [
+        "Andrew",
+        "Megan",
+        "James"
+      ],
+      "quantity": 1,
+      "item_id": null,
+      "weights": {
+        "Andrew": 1.0,
+        "Megan": 1.0,
+        "James": 1.0
+      },
+      "use_weighted_split": false
+    }
+  ]
+}
