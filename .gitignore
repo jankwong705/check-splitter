@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+backend/.env
+
+# Node / Vite
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+
+# OS / editor
+.DS_Store
+.ipynb_checkpoints/
+
+# Large test asset — keep out of the repo
+test.jpeg
